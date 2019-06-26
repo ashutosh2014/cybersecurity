@@ -1,0 +1,276 @@
+/*------------------
+  Hero section
+---------------------*/
+
+.hero-section {
+	height: 835px;
+	overflow: hidden;
+}
+
+.hero-content {
+	display: -ms-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 100%;
+	position: relative;
+}
+
+.hero-content h2 {
+	font-size: 90px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+
+.hero-content P {
+	font-size: 18px;
+	line-height: 1.7;
+	margin-bottom: 40px;
+}
+
+.hero-rocket {
+	position: absolute;
+	bottom: 8px;
+	right: -198px;
+}
+
+.hero-rocket img {
+	position: relative;
+	-webkit-animation: rocket 2s linear infinite;
+	animation: rocket 2s linear infinite;
+}
+
+@-webkit-keyframes rocket {
+	0% {
+		left: 20px;
+		bottom: 20px;
+	}
+	25% {
+		left: -20px;
+		bottom: 20px;
+	}
+	50% {
+		left: -20px;
+		bottom: 0px;
+	}
+	75% {
+		left: 0px;
+		bottom: 0px;
+	}
+	100% {
+		left: 20px;
+		bottom: 20px;
+	}
+}
+
+@keyframes rocket {
+	0% {
+		left: 20px;
+		bottom: 20px;
+	}
+	25% {
+		left: -20px;
+		bottom: 20px;
+	}
+	50% {
+		left: -20px;
+		bottom: 0px;
+	}
+	75% {
+		left: 0px;
+		bottom: 0px;
+	}
+	100% {
+		left: 20px;
+		bottom: 20px;
+	}
+}
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+
+
+
+.mid{
+	border: none;
+	width: 100%;
+	height: auto;
+}
+
+.mid h6{
+	border: none;
+	width: auto;
+	height: auto;
+	float: center;
+	text-align: center;
+	font-size: 8px;
+	color: gray;
+	font-weight: 0;
+}
+
+.mid h2{
+	border: none;
+	width: auto;
+	height: auto;
+	float: center;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.imgg1{
+	border: none;
+	width: 100%;
+	height: auto;
+	float: center;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.important{
+	border: none;
+	height: auto;
+	margin-top: 60px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.dgsads {
+	display:table-cell; vertical-align:middle; text-align:center;
+}
+.dgsads img {  
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pb00 {
+	padding-bottom: 20px;
+	padding-right: 50px;
+}
+.addSpace {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 20px;
+}
+
+.addSpace div h4 {
+	border: none;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    text-align: left;
+}
+.addSpace div p {
+	border: none;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.news{
+	border: none;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.nimg1 img {  
+   position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px;
+    width: 80px;
+    height: 65px;
+}
+.textmake {
+	min-height: 90px;
+	height: auto;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.textmake div h5 {
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 400;
+}
+.site-btn {
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 186px;
+    padding: 17px 25px;
+    border-radius: 14px;
+    background: #eb2b63;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.hero-rocket {
+		width: 500px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hero-rocket {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 766px) {
+	.hero-section {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.hero-section {
+		height: 750px;
+	}
+	.hero-content h2 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.hero-content h2 {
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+
+	.hero-rocket {
+		display: none;
+	}
+}
+@media only screen and (max-width: 610px) {
+	.pb00 {
+		padding-right: 15px;
+	}
+
+}

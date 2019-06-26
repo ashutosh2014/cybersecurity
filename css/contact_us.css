@@ -1,0 +1,104 @@
+/* ----------------
+  Contact Page
+---------------------*/
+.section-padding {
+    width: 100%;
+    height: 285px;
+    background: url(../img/milestones-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 70px 40px 40px 50px;
+}
+.srvcs {
+  	position: relative;
+  	top:80px;
+  	left: 40px;
+	font-size: 4vw;
+	color: #fff;
+	font-weight: 0add;
+	line-height: 1;
+}
+.hm-srvcs {
+  position: relative;
+  top:55px;
+	font-family: "RobotoMono-Light";
+	font-size: 1vw;
+	color: rgb(211,211,211,0.4);
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+.contact-section {
+	padding-top: 100px;
+}
+
+.contact-text h4 {
+	margin-bottom: 30px;
+}
+
+.contact-text p {
+	margin-bottom: 40px;
+	color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.cont-info {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.cont-info .ci-icon {
+	width: 36px;
+	float: left;
+}
+
+.cont-info span {
+	font-size: 16px;
+	color: #1c1c1c;
+	display: block;
+	overflow: hidden;
+}
+
+.contact-form {
+	padding-top: 64px;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+	width: 100%;
+	height: 56px;
+	border: none;
+	padding: 0 29px;
+	background: #eff4f7;
+	border-radius: 12px;
+	margin-bottom: 21px;
+}
+
+.contact-form textarea {
+	padding: 23px 29px;
+	height: 195px;
+}
+
+.map {
+	margin-top: 107px;
+	height: 685px;
+}
+.site-btn {
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 186px;
+    padding: 17px 25px;
+    border-radius: 14px;
+    background: #eb2b63;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+.site-btn:hover {
+    color: #fff;
+}

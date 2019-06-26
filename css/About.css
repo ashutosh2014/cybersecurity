@@ -1,0 +1,181 @@
+@media (min-width: 576px) and (max-width: 657px) {
+#fb {
+	margin-right: 2px;
+}
+}
+
+
+.section-padding {
+	width: 100%;
+	height: 285px;
+	background: url('../img/milestones-bg.jpg') no-repeat ;
+	background-size: cover;
+	padding: 70px 40px 40px 50px;
+}
+.srvcs {
+  	position: relative;
+  	top:80px;
+  	left: 40px;
+	font-size: 4vw;
+	color: #fff;
+	font-weight: 0add;
+	line-height: 1;
+
+}
+.hm-srvcs {
+  position: relative;
+  top:55px;
+	font-family: "RobotoMono-Light";
+	font-size: 1vw;
+	color: rgb(211,211,211,0.4);
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+
+.image{
+    position: relative;
+}
+.image .heading1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    border:none;
+}
+#panel2{
+    border:none;
+}
+#panel{
+    border:none;
+}
+#button1{
+
+	border-radius:10px;
+	border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-right: 30px;
+	font-size: 12px;
+	background-color: rgba(240, 15, 154, 0.815);
+}
+#image{
+    position: relative;
+}
+#heading1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+}
+#container1 {
+    position: relative;
+}    
+#heading2{
+    position: absolute;
+    font-weight:600;
+    color:gray;
+    float:left;
+    font-size:3vw;
+}
+#center{
+    font-weight:800;
+    text-align:center;
+}
+#team{
+    background: white;
+
+}
+.center{
+    font-weight:800;
+    text-align:center;
+}
+.social {
+	display: -ms-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#fb {
+	display: -ms-inline-flex;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 32px;
+	height: 32px;
+	color: #fff;
+	background: #491f70;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-right: 8px;
+	font-size: 12px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+#fb a:hover {
+	background: #eb2b63;
+}
+
+
+.addd-paddingTop {
+	padding-top: 50px;
+	vertical-align: middle;
+}
+
+.image-small {
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.read-more-min {
+	margin-top: 20px;
+}
+.imggggg {
+	width: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+.imggggg-p {
+	text-align:center;
+	color:grey;
+	font-size:8px;
+}
+
+.dfghhs {
+	text-align: center;
+	padding-bottom: 0px;
+}
+@media (max-width: 1120px) and (min-width: 992px) {
+	.image-set-m {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.image-set-m {
+		margin-top: 100px;
+		height: 300px;
+	}
+	.image-small {
+		/*height: 300px;*/
+	}
+}
+
+
+@media (max-width: 767px) {
+	.read-more-max {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.read-more-min {
+		display: none;
+	}
+}

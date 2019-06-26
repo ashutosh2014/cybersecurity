@@ -1,0 +1,83 @@
+
+.radius-border-20 {
+	border-radius: 16px;
+} 
+.image{
+    position: relative;
+}
+.image .heading1{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    border:none;
+}
+#button1{
+
+	border-radius:25px;
+	border: none;
+	color: white;
+	padding-left: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	background-color: rgba(240, 15, 154, 0.815);
+}
+#button1:hover,
+#button1:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.05em);
+}
+#text {
+	margin-top: 25px;
+	padding-bottom: 20px;
+	/*display: hidden;*/
+}
+#admin{
+	color:grey;
+    font-size: 12px;
+    line-height: 18px;
+    max-height: 90px;
+    overflow: hidden;
+    text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}/*
+#admin:before {
+  content: '...';
+  position: absolute;
+  right: 5px;
+  bottom: 77px;
+}*/
+
+@media only screen and (max-width: 479px) {
+	#admin {
+		/*margin-left: 15px;*/
+    /*margin-top: 200px;*/
+	}
+}
+@media only screen and (max-width: 479px) {
+.panel-body {
+     margin-top: 4px; 
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.radius-border-20 {
+	/*border-radius: 16px;*/
+	margin-top: 90px;
+	height: 180px;
+} 	
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+.radius-border-20 {
+	margin-top: 20px;
+} 		
+}
+@media (max-width: 991px) and (min-width: 768px) {
+.radius-border-20 {
+	margin-top: 70px;
+} 		
+}

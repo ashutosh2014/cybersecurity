@@ -1,0 +1,61 @@
+@font-face{
+    font-family:"RobotoMono-Light";
+    src: url("../fonts/RobotoMono-Light.ttf");
+}
+
+@font-face{
+    font-family:"PlexSans-Regular";
+    src: url("../fonts/IBMPlexSansCondensed-Regular.ttf");
+}
+@font-face{
+    font-family:"PlexSans-Medium";
+    src: url("../fonts/IBMPlexSansCondensed-Medium.ttf");
+}
+
+.section-padding {
+	width: 100%;
+	height: 285px;
+	background: url('../img/milestones-bg.jpg') no-repeat ;
+	background-size: cover;
+	padding: 70px 40px 40px 50px;
+}
+.srvcs {
+  	position: relative;
+  	top:80px;
+  	left: 40px;
+	font-size: 4vw;
+	color: #fff;
+	font-weight: 0add;
+	line-height: 1;
+
+}
+.hm-srvcs {
+  position: relative;
+  top:55px;
+	font-family: "RobotoMono-Light";
+	font-size: 1vw;
+	color: rgb(211,211,211,0.4);
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+.section-padding1 {
+	width: 100%;
+	padding: 45px 20px 45px 20px;
+}
+
+@media (max-width: 786px) {
+	.section-padding {
+	    padding-left:  30px;
+	}
+}
+@media (min-width: 1350px) {
+	.srvcs-container {
+    	width: 1200px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.srvcs1 {
+    	width: 1200px;
+    }
+}
